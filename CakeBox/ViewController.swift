@@ -40,6 +40,23 @@ class ViewController: UIViewController {
         
     }
 
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("touches began \(touches.count)");
+        print("position \(touches.first!.location(in: self.view))")
+    }
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("touches moved \(touches.count)");
+        print("position \(touches.first!.location(in: self.view))")
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //print("position \(touches.first!.location(in: self.view))")
+        //print("touches eneded")
+    }
+    
+    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("touches cancelled")
+    }
 }
 

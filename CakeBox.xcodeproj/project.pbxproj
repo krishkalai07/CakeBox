@@ -11,6 +11,7 @@
 		0077F003228A5C890088C899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077F002228A5C890088C899 /* ViewController.swift */; };
 		0077F008228A5C8A0088C899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0077F007228A5C8A0088C899 /* Assets.xcassets */; };
 		0077F00B228A5C8A0088C899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0077F009228A5C8A0088C899 /* LaunchScreen.storyboard */; };
+		0077F013228A7A9D0088C899 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077F012228A7A9D0088C899 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0077F007228A5C8A0088C899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0077F00A228A5C8A0088C899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0077F00C228A5C8A0088C899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0077F012228A7A9D0088C899 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0077F000228A5C890088C899 /* AppDelegate.swift */,
 				0077F002228A5C890088C899 /* ViewController.swift */,
+				0077F012228A7A9D0088C899 /* RecipeViewController.swift */,
 				0077F007228A5C8A0088C899 /* Assets.xcassets */,
 				0077F009228A5C8A0088C899 /* LaunchScreen.storyboard */,
 				0077F00C228A5C8A0088C899 /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				0077F003228A5C890088C899 /* ViewController.swift in Sources */,
 				0077F001228A5C890088C899 /* AppDelegate.swift in Sources */,
+				0077F013228A7A9D0088C899 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
