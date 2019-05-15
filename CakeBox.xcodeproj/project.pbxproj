@@ -58,10 +58,10 @@
 			children = (
 				0077F000228A5C890088C899 /* AppDelegate.swift */,
 				0077F002228A5C890088C899 /* CakePickerViewController.swift */,
-				3CA3FA29228A88A700917752 /* Cakes.plist */,
 				0077F012228A7A9D0088C899 /* RecipeViewController.swift */,
 				0077F007228A5C8A0088C899 /* Assets.xcassets */,
 				0077F009228A5C8A0088C899 /* LaunchScreen.storyboard */,
+				3CA3FA29228A88A700917752 /* Cakes.plist */,
 				0077F00C228A5C8A0088C899 /* Info.plist */,
 			);
 			path = CakeBox;
