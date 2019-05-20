@@ -84,6 +84,14 @@ class CakePickerViewController: UIViewController {
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("touches ended")
+
+        self.present(RecipieViewController(cakeName: db[pageIndex][0],
+                                           imageName: db[pageIndex][1],
+                                           ingredients: db[pageIndex][3],
+                                           recipie: db[pageIndex][4]),
+                     animated: true,
+                     completion: nil)
+        //self.dismiss(animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
     }
  
     @objc
